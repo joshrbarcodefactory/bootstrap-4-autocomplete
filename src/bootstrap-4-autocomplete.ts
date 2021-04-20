@@ -97,7 +97,7 @@ interface JQuery {
         return items.children().length;
     }
 
-    $.fn.autocomplete = function(options) {
+    $.fn.bs4autocomplete = function(options) {
         // merge options with default
         let opts: AutocompleteOptions = {};
         $.extend(opts, defaults, options);
